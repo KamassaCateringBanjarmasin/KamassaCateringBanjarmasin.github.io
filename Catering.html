@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lightbox.min.css">
+<script src="lightbox-plus-jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamassa Catering Banjarmasin (Food & Snack)</title>
+    <link rel="stylesheet" href="path/to/lightbox2/css/lightbox.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fccb62;
+            color: #343a40;
+        }
+        header {
+            background-image: url('ac100cdc-7bb5-41cc-a27d-f0746cb771b3.png');
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 252, 252);
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+        }
+        header h1, header p {
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+        }
+        .container {
+            padding: 20px;
+            position: relative;
+            min-height: 100vh;
+        }
+        .intro, .services, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #fafafa;
+        }
+        .button, .order-button {
+            background-color: #a72828;
+            border: none;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .whatsapp-button {
+            background-color: #25d366;
+        }
+        .service {
+            position: relative;
+            margin-bottom: 40px;
+        }
+        .carousel-container {
+            display: flex;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            margin-bottom: 20px;
+        }
+        .carousel-item {
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            width: 100%;
+            max-width: 400px;
+            margin-right: 20px;
+            position: relative;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .carousel-item .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: rgb(245, 244, 242);
+            padding: 10px;
+            text-align: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .carousel-item:hover .description {
+            opacity: 1;
+        }
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .service:hover .overlay {
+            opacity: 1;
+        }
+        .overlay a {
+            background-color: #42c207;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            display: block;
+            text-align: center;
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: #343a40;
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 10px;
+            }
+            .logo {
+                width: 60px;
+            }
+            .button, .order-button {
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+            .carousel-item img {
+                height: auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header {
+                padding: 10px 5px;
+            }
+            .logo {
+                width: 50px;
+            }
+            .button, .order-button {
+                padding: 6px 12px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="WhatsApp_Image_2024-07-05_at_23.20.44-removebg-preview.png" alt="Logo Kamassa Catering" class="logo">
+        <h1>Kamassa Catering Banjarmasin</h1>
+        <p>(Food & Snack)</p>
+    </header>
+
+    <div class="container">
+        <div class="intro">
+            <div class="image-placeholder"></div>
+            <h2>Selamat Datang di Kamassa Catering Banjarmasin</h2>
+            <p>Kami menyediakan berbagai macam makanan dan snack untuk segala acara Anda. Kualitas dan kepuasan pelanggan adalah prioritas utama kami.</p>
+        </div>
+
+        <div class="services">
+            <h2>PAKET KAMI</h2>
+            <div class="service">
+                <div class="carousel-container">
+                    <div class="carousel-item">
+                        <a href="KAMASSA CATERING BANJARMASIN (FOOD & SNACK) (1).jpg" data-lightbox="service1" data-title="List harga belum termasuk ongkir silahkan klik order now untuk melakukan pemesanan dan untuk informasi lebih lanjut dapat hubungi whatsapp tertera pada website kami">
+                            <img src="WhatsApp Image 2024-07-05 at 23.20.41.jpeg" alt="" class="thumbnail">
+                        </a>
+                        <div class="description">
+                            <p>NASI AYAM LALAPAN</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="KAMASSA CATERING BANJARMASIN (FOOD & SNACK) (3).jpg" data-lightbox="service1" data-title="List harga belum termasuk ongkir silahkan klik order now untuk melakukan pemesanan dan untuk informasi lebih lanjut dapat hubungi whatsapp tertera pada website kami">
+                            <img src="WhatsApp Image 2024-07-05 at 23.20.40 (1).jpeg" alt="" class="thumbnail">
+                        </a>
+                        <div class="description">
+                            <p>SNACK BOX</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="KAMASSA CATERING BANJARMASIN (FOOD & SNACK) (2).jpg" data-lightbox="service1" data-title="List harga belum termasuk ongkir silahkan klik order now untuk melakukan pemesanan dan untuk informasi lebih lanjut dapat hubungi whatsapp tertera pada website kami">
+                            <img src="WhatsApp Image 2024-07-05 at 23.20.42 (1).jpeg" alt="" class="thumbnail">
+                        </a>
+                        <div class="description">
+                            <p>NASI AYAM MASAK KARI</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="https://wa.me/+6287870949399" class="order-button">Order Now</a>
+                </div>
+            </div>
+        <div class="contact">
+            <h2>Kontak Kami</h2>
+            <p>Untuk pemesanan dan request paket diluar menu atau informasi lebih lanjut, silakan hubungi kami melalui tombol di bawah ini.</p>
+            <a href="https://www.instagram.com/snackkuebanjarmasin?igsh=cWdwYzloYXV2MXE0" class="button" target="_blank">Ikuti Kami di Instagram</a>
+            <a href="https://wa.me/+6287870949399" class="button whatsapp-button">Chat via WhatsApp</a>
+        </div>
+    </div>
+
+    <script src="path/to/lightbox2/js/lightbox.min.js"></script>
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        });
+    </script>
+</body>
+</html>
